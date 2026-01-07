@@ -24,15 +24,9 @@ Platform web yang mengintegrasikan dua microservices: Pemesanan Akomodasi dan La
 | Backend Living Support | Express.js + PostgreSQL (Supabase) |
 | Backend Accommodation | Express.js + PostgreSQL (Supabase) |
 
-## Quick Start
+## Penggunaan
 
-```bash
-cd koshub
-npm install
-npm run dev
-```
-
-Buka `http://localhost:3001`
+Buka https://tugas-3-kos-hub-18223054.vercel.app
 
 ## Environment
 
