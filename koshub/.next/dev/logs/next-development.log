@@ -1,0 +1,401 @@
+[00:00:00.551] Server  LOG     ✓ Ready in 426ms
+[00:00:02.642] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:00:03.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:03.154] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:00:07.832] Browser LOG     Living Support Request: POST /auth/login
+[00:00:33.157] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:01:03.158] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:01:34.461] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:02:04.461] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:02:34.461] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:03:01.500] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:03:01.500] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:03:11.842] Browser LOG     Living Support Request: POST /auth/login
+[00:04:19.432] Browser LOG     Living Support Request: POST /auth/register
+[00:04:37.562] Browser LOG     Living Support Response: 200 /auth/login
+[00:04:37.562] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:04:37.562] Browser LOG     Living Support Request: GET /api/laundry
+[00:04:37.562] Browser LOG     Living Support Request: GET /api/catering
+[00:04:37.562] Browser LOG     Living Support Request: GET /api/laundry
+[00:04:37.562] Browser LOG     Living Support Request: GET /api/catering
+[00:04:39.130] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:04:39.400] Browser LOG     Living Support Response: 200 /api/catering
+[00:05:07.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:05:34.036] Browser LOG     Living Support Request: GET /api/notifications
+[00:05:34.036] Browser LOG     Living Support Request: GET /api/notifications
+[00:05:37.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:06:04.516] Browser LOG     Living Support Request: POST /auth/login
+[00:06:06.711] Browser LOG     Living Support Response: 200 /auth/login
+[00:06:06.711] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:06:06.711] Browser LOG     Living Support Request: GET /api/laundry
+[00:06:06.711] Browser LOG     Living Support Request: GET /api/catering
+[00:06:06.711] Browser LOG     Living Support Request: GET /api/laundry
+[00:06:06.711] Browser LOG     Living Support Request: GET /api/catering
+[00:06:07.497] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:06:09.144] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:06:09.144] Browser LOG     Living Support Response: 200 /api/laundry
+[00:06:09.144] Browser LOG     Living Support Response: 200 /api/laundry
+[00:06:09.144] Browser LOG     Living Support Response: 200 /api/catering
+[00:06:09.144] Browser LOG     Accommodation Request: GET /bookings
+[00:06:09.144] Browser LOG     Living Support Response: 200 /api/catering
+[00:06:09.144] Browser LOG     Accommodation Request: GET /bookings
+[00:06:09.369] Browser ERROR   Accommodation Error: {"message":"No authorization header","status":401,"url":"/bookings"}
+[00:06:09.369] Browser LOG     Bookings not available (external service)
+[00:06:09.369] Browser ERROR   Accommodation Error: {"message":"No authorization header","status":401,"url":"/bookings"}
+[00:06:09.369] Browser LOG     Bookings not available (external service)
+[00:06:17.001] Browser LOG     Accommodation Request: GET /accommodations
+[00:06:17.001] Browser LOG     Accommodation Request: GET /accommodations
+[00:06:17.194] Browser ERROR   Accommodation Error: {"message":"No authorization header","status":401,"url":"/accommodations"}
+[00:06:17.194] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/accommodations","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"settle@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:3706:180\nonloadend@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4221:174\nrequest@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:66","status":401}
+[00:06:17.194] Browser ERROR   Accommodation Error: {"message":"No authorization header","status":401,"url":"/accommodations"}
+[00:06:17.194] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/accommodations","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"settle@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:3706:180\nonloadend@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4221:174\nrequest@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:66","status":401}
+[00:06:26.771] Browser LOG     Accommodation Request: POST /auth/login
+[00:06:27.760] Browser LOG     Accommodation Response: 200 /auth/login
+[00:06:34.458] Browser LOG     Accommodation Request: GET /accommodations
+[00:06:34.458] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:06:36.203] Browser LOG     Accommodation Response: 200 /accommodations
+[00:06:36.835] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:06:37.569] Browser LOG     Living Support Response: 200 /auth/register
+[00:06:37.569] Browser LOG     Living Support Request: GET /api/laundry
+[00:06:37.569] Browser LOG     Living Support Request: GET /api/catering
+[00:06:37.569] Browser LOG     Living Support Request: GET /api/laundry
+[00:06:37.569] Browser LOG     Living Support Request: GET /api/catering
+[00:06:37.569] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:06:37.569] Browser LOG     Living Support Response: 200 /api/laundry
+[00:06:37.569] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:06:37.569] Browser LOG     Living Support Response: 200 /api/laundry
+[00:06:37.569] Browser LOG     Accommodation Request: GET /bookings
+[00:06:37.569] Browser LOG     Living Support Response: 200 /api/catering
+[00:06:37.569] Browser LOG     Accommodation Request: GET /bookings
+[00:06:38.569] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:06:38.714] Browser LOG     Accommodation Response: 200 /bookings
+[00:06:39.025] Browser LOG     Living Support Response: 200 /api/laundry
+[00:06:39.237] Browser LOG     Accommodation Response: 200 /bookings
+[00:06:39.237] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:06:39.658] Browser LOG     Living Support Response: 200 /api/laundry
+[00:06:40.902] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:06:41.091] Browser LOG     Living Support Response: 200 /api/catering
+[00:06:41.091] Browser LOG     Accommodation Request: GET /bookings
+[00:06:42.045] Browser LOG     Living Support Response: 200 /api/catering
+[00:06:42.045] Browser LOG     Accommodation Request: GET /bookings
+[00:06:42.212] Browser LOG     Accommodation Response: 200 /bookings
+[00:06:42.212] Browser LOG     Living Support Response: 200 /api/notifications
+[00:06:42.212] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:06:43.089] Browser LOG     Accommodation Response: 200 /bookings
+[00:06:43.089] Browser LOG     Living Support Response: 200 /api/notifications
+[00:06:59.636] Browser LOG     Accommodation Request: POST /bookings
+[00:07:02.522] Browser LOG     Accommodation Response: 201 /bookings
+[00:07:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:07:07.886] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:07:07.886] Browser LOG     Living Support Request: GET /api/laundry
+[00:07:07.886] Browser LOG     Living Support Request: GET /api/catering
+[00:07:07.886] Browser LOG     Living Support Request: GET /api/laundry
+[00:07:07.886] Browser LOG     Living Support Request: GET /api/catering
+[00:07:10.107] Browser LOG     Living Support Response: 200 /api/laundry
+[00:07:10.107] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:07:10.107] Browser LOG     Living Support Response: 200 /api/laundry
+[00:07:10.107] Browser LOG     Living Support Response: 200 /api/catering
+[00:07:10.107] Browser LOG     Accommodation Request: GET /bookings
+[00:07:10.112] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:07:10.210] Browser LOG     Living Support Response: 200 /api/catering
+[00:07:10.210] Browser LOG     Accommodation Request: GET /bookings
+[00:07:10.808] Browser LOG     Accommodation Response: 200 /bookings
+[00:07:10.808] Browser LOG     Accommodation Response: 200 /bookings
+[00:07:11.294] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:07:11.294] Browser LOG     Living Support Request: GET /api/laundry
+[00:07:11.294] Browser LOG     Living Support Request: GET /api/catering
+[00:07:11.879] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:07:11.879] Browser LOG     Living Support Response: 200 /api/catering
+[00:07:11.879] Browser LOG     Living Support Response: 200 /api/laundry
+[00:07:11.879] Browser LOG     Accommodation Request: GET /bookings
+[00:07:12.273] Browser LOG     Accommodation Response: 200 /bookings
+[00:07:16.196] Browser LOG     Living Support Request: POST /auth/login
+[00:07:17.136] Browser LOG     Living Support Response: 200 /auth/login
+[00:07:17.136] Browser LOG     Living Support Request: GET /api/laundry
+[00:07:17.136] Browser LOG     Living Support Request: GET /api/catering
+[00:07:17.136] Browser LOG     Living Support Request: GET /api/laundry
+[00:07:17.136] Browser LOG     Living Support Request: GET /api/catering
+[00:07:17.738] Browser LOG     Living Support Response: 200 /api/laundry
+[00:07:17.739] Browser LOG     Living Support Response: 200 /api/laundry
+[00:07:17.851] Browser LOG     Living Support Response: 200 /api/catering
+[00:07:17.851] Browser LOG     Accommodation Request: GET /bookings
+[00:07:17.851] Browser LOG     Living Support Response: 200 /api/catering
+[00:07:17.851] Browser LOG     Accommodation Request: GET /bookings
+[00:07:18.519] Browser LOG     Accommodation Response: 200 /bookings
+[00:07:19.652] Browser LOG     Accommodation Response: 200 /bookings
+[00:07:37.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:07:40.052] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:07:41.295] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:07:42.423] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:08:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:08:10.397] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:08:11.297] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:08:12.074] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:08:37.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:08:40.207] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:08:41.298] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:08:41.879] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:09:07.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:09:11.299] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:09:11.907] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:09:37.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:09:37.963] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:09:40.304] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:09:41.299] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:09:41.897] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:10:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:10:10.633] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:10:11.305] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:10:11.443] Server  LOG     ✓ Compiled in 182ms
+[00:10:11.898] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:10:28.099] Server  LOG     ✓ Compiled in 29ms
+[00:10:37.500] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:10:40.787] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:10:41.303] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:10:42.076] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:11:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:11:09.434] Server  LOG     ✓ Compiled in 25ms
+[00:11:09.594] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:11:11.304] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:11:12.388] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:11:37.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:11:40.056] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:11:41.305] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:11:41.956] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:12:07.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:12:10.467] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:12:11.324] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:12:11.888] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:12:37.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:12:40.272] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:12:42.330] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:12:42.330] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:13:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:13:09.773] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:13:13.248] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:13:13.248] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:13:20.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:13:21.067] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:13:21.067] Browser LOG     Living Support Request: GET /api/laundry
+[00:13:21.067] Browser LOG     Living Support Request: GET /api/catering
+[00:13:22.177] Browser LOG     Living Support Response: 200 /api/catering
+[00:13:24.041] Browser LOG     Living Support Response: 200 /api/laundry
+[00:13:24.041] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:24.041] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:13:26.205] Browser LOG     Living Support Request: POST /auth/login
+[00:13:26.426] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:27.059] Browser LOG     Living Support Response: 200 /auth/login
+[00:13:27.059] Browser LOG     Living Support Request: GET /api/laundry
+[00:13:27.059] Browser LOG     Living Support Request: GET /api/catering
+[00:13:27.059] Browser LOG     Living Support Request: GET /api/laundry
+[00:13:27.059] Browser LOG     Living Support Request: GET /api/catering
+[00:13:28.465] Browser LOG     Living Support Response: 200 /api/catering
+[00:13:40.155] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:13:40.155] Browser LOG     Living Support Request: GET /api/laundry
+[00:13:40.155] Browser LOG     Living Support Request: GET /api/catering
+[00:13:42.376] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:13:42.376] Browser LOG     Living Support Response: 200 /api/catering
+[00:13:43.164] Browser LOG     Living Support Response: 200 /api/laundry
+[00:13:43.164] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:45.272] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:47.411] Browser LOG     Living Support Request: POST /auth/login
+[00:13:47.951] Browser LOG     Living Support Response: 200 /api/laundry
+[00:13:47.952] Browser LOG     Living Support Response: 200 /api/catering
+[00:13:47.952] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:47.952] Browser LOG     Living Support Response: 200 /api/laundry
+[00:13:47.952] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:48.064] Browser LOG     Living Support Response: 200 /auth/login
+[00:13:48.064] Browser LOG     Living Support Request: GET /api/laundry
+[00:13:48.064] Browser LOG     Living Support Request: GET /api/catering
+[00:13:48.064] Browser LOG     Living Support Request: GET /api/laundry
+[00:13:48.064] Browser LOG     Living Support Request: GET /api/catering
+[00:13:48.842] Browser LOG     Living Support Response: 200 /api/catering
+[00:13:48.842] Browser LOG     Living Support Response: 200 /api/catering
+[00:13:48.842] Browser LOG     Living Support Response: 200 /api/laundry
+[00:13:48.842] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:48.842] Browser LOG     Living Support Response: 200 /api/laundry
+[00:13:48.842] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:48.939] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:49.409] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:49.917] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:51.068] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:13:51.091] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:13:52.111] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:14:02.580] Browser LOG     Accommodation Request: PUT /bookings/12
+[00:14:03.833] Browser LOG     Accommodation Request: PUT /bookings/12
+[00:14:04.804] Browser LOG     Accommodation Request: PUT /bookings/13
+[00:14:05.433] Browser LOG     Accommodation Response: 200 /bookings/12
+[00:14:05.433] Browser LOG     Living Support Request: GET /api/laundry
+[00:14:05.433] Browser LOG     Living Support Request: GET /api/catering
+[00:14:05.989] Browser LOG     Accommodation Response: 200 /bookings/12
+[00:14:05.989] Browser LOG     Living Support Request: GET /api/laundry
+[00:14:05.989] Browser LOG     Living Support Request: GET /api/catering
+[00:14:09.034] Browser LOG     Accommodation Request: PUT /bookings/13
+[00:14:09.034] Browser ERROR   Accommodation Error: {"message":"No available units","status":404,"url":"/bookings/13"}
+[00:14:09.034] Browser ERROR   Failed to pay booking: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","data":"{\"status\":\"SUCCESS\",\"accommodation_id\":\"2\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3ODA3MDUxLCJpYXQiOjE3Njc4MDM0NTEsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODAzNDUxfV0sInNlc3Npb25faWQiOiIxYzkyNTJlNy1lMmZlLTQ0YjctOTkwMi00NzkyZWFhNWFhZmQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.pjL8Vy3e_MqcLlGV7A7tj4YlQ1uxYGtcYsrkBj9OGmjuVQFf9qALLrbzpnTGcepN208IoIZO8nWUHCn1L1D_aA","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/bookings/13","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"settle@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:3706:180\nonloadend@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4221:174\nrequest@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:66","status":404}
+[00:14:09.034] Browser LOG     Living Support Response: 200 /api/catering
+[00:14:09.034] Browser LOG     Living Support Response: 200 /api/laundry
+[00:14:09.034] Browser LOG     Living Support Response: 200 /api/catering
+[00:14:09.034] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:09.034] Browser LOG     Living Support Response: 200 /api/laundry
+[00:14:09.034] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:09.034] Browser LOG     Accommodation Response: 200 /bookings/13
+[00:14:09.034] Browser LOG     Living Support Request: GET /api/laundry
+[00:14:09.034] Browser LOG     Living Support Request: GET /api/catering
+[00:14:09.658] Browser LOG     Living Support Response: 200 /api/laundry
+[00:14:09.658] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:09.658] Browser LOG     Living Support Response: 200 /api/catering
+[00:14:09.658] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:09.960] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:10.142] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:12.962] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:14:13.714] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:14:14.208] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:14:14.208] Browser LOG     Living Support Request: GET /api/laundry
+[00:14:14.208] Browser LOG     Living Support Request: GET /api/catering
+[00:14:14.667] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:14:14.804] Browser LOG     Living Support Response: 200 /api/laundry
+[00:14:15.115] Browser LOG     Living Support Response: 200 /api/catering
+[00:14:15.115] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:15.926] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:16.426] Browser LOG     Living Support Request: POST /auth/login
+[00:14:17.111] Browser LOG     Living Support Response: 200 /auth/login
+[00:14:17.111] Browser LOG     Living Support Request: GET /api/laundry
+[00:14:17.111] Browser LOG     Living Support Request: GET /api/catering
+[00:14:17.111] Browser LOG     Living Support Request: GET /api/laundry
+[00:14:17.111] Browser LOG     Living Support Request: GET /api/catering
+[00:14:17.560] Browser LOG     Living Support Response: 200 /api/laundry
+[00:14:17.560] Browser LOG     Living Support Response: 200 /api/laundry
+[00:14:17.685] Browser LOG     Living Support Response: 200 /api/catering
+[00:14:17.685] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:17.685] Browser LOG     Living Support Response: 200 /api/catering
+[00:14:17.685] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:18.130] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:18.237] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:14:21.069] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:14:21.234] Browser ERROR   Living Support Error: {"message":"Network Error","url":"/api/notifications/unread-count"}
+[00:14:21.234] Browser ERROR   Failed to fetch unread notifications: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223054.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3ODA3NDcxLCJpYXQiOjE3Njc4MDM4NzEsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODAzODcxfV0sInNlc3Npb25faWQiOiJlNjY3NzEyMy01Mzg2LTQ5ZDktYWM4Zi1hN2IyZDI3YzBmYzciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XRUUGzOeLdHoeWPpXpJW0OWUvPJYM0Ts8l_ptNXObtpAcUkPk1zVEZQ3zq-gb3TKtbWLKY8lISbkyDWP58Y07Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/notifications/unread-count","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4267:25)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:49)\n    at async Object.getUnreadCount (http://localhost:3001/_next/static/chunks/app_9befdfdc._.js:310:26)\n    at async fetchUnreadCount (http://localhost:3001/_next/static/chunks/app_9befdfdc._.js:459:38)"}
+[00:14:37.672] Browser LOG     Accommodation Request: GET /accommodations
+[00:14:37.672] Browser LOG     Accommodation Request: GET /accommodations
+[00:14:40.410] Browser LOG     Accommodation Response: 200 /accommodations
+[00:14:40.839] Browser LOG     Accommodation Response: 200 /accommodations
+[00:14:44.210] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:14:46.423] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:14:51.068] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:14:52.070] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:15:08.487] Browser LOG     Accommodation Request: POST /bookings
+[00:15:11.732] Browser LOG     Accommodation Response: 201 /bookings
+[00:15:14.210] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:15:17.099] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:15:21.069] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:15:21.894] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:15:22.714] Browser LOG     Living Support Request: GET /api/laundry
+[00:15:22.714] Browser LOG     Living Support Request: GET /api/catering
+[00:15:22.714] Browser LOG     Living Support Request: GET /api/laundry
+[00:15:22.714] Browser LOG     Living Support Request: GET /api/catering
+[00:15:23.506] Browser LOG     Living Support Response: 200 /api/laundry
+[00:15:24.047] Browser LOG     Living Support Response: 200 /api/laundry
+[00:15:24.708] Browser LOG     Living Support Response: 200 /api/catering
+[00:15:24.708] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:15:25.415] Browser LOG     Living Support Response: 200 /api/catering
+[00:15:25.415] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:15:26.697] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:15:27.285] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
+[00:15:33.183] Browser LOG     Living Support Request: GET /api/notifications
+[00:15:33.183] Browser LOG     Living Support Request: GET /api/notifications
+[00:15:33.881] Browser LOG     Living Support Response: 200 /api/notifications
+[00:15:34.287] Browser LOG     Living Support Response: 200 /api/notifications
+[00:15:44.210] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:15:47.195] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:15:51.070] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:15:52.341] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:16:14.212] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:16:16.643] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:16:21.069] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:16:21.865] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:16:24.341] Server  LOG     ✓ Compiled in 17ms
+[00:16:44.213] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:16:46.654] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:16:51.070] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:16:52.287] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
+[00:16:58.657] Server  LOG     ✓ Compiled in 11ms
+[00:17:01.913] Server  LOG     ✓ Compiled in 10ms
+[00:17:04.909] Server  LOG     ✓ Compiled in 10ms
+[00:17:08.396] Server  LOG     ✓ Compiled in 12ms
+[00:17:14.213] Browser LOG     Living Support Request: GET /api/notifications/unread-count
+[00:17:15.940] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:17:15.940] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:17:16.000] Server  LOG     ✓ Compiled in 12ms
+[00:17:16.110] Browser ERROR   Living Support Error: {"message":"Network Error","url":"/api/notifications/unread-count"}
+[00:17:16.110] Browser ERROR   Failed to fetch unread notifications: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223054.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3ODA3NTIxLCJpYXQiOjE3Njc4MDM5MjEsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODAzOTIxfV0sInNlc3Npb25faWQiOiI2MjNlNmU2Zi05ZmQwLTQwNzItYTIyNi0zZjA1N2JlZGM5MDciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.CW0HOsGrg1tQvp2R7yfDyb0S0cRoKsTbnsYPf0alC_JecsgcaKhT0Y7Sy6pinApVVXlSQ1SSagHnslswUREefA","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/notifications/unread-count","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"handleError@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4267:189\nrequest@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:66"}
+[00:17:16.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:02.056] Server  LOG     ✓ Compiled in 10ms
+[00:18:19.122] Server  LOG     ✓ Compiled in 15ms
+[00:18:25.366] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:25.366] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:25.433] Server  LOG     ✓ Compiled in 12ms
+[00:18:25.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:18:28.094] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:28.095] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:18:28.169] Server  LOG     ✓ Compiled in 14ms
+[00:18:28.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:19.424] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:19.425] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:19.478] Server  LOG     ✓ Compiled in 11ms
+[00:19:19.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:23.605] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:23.606] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:23.655] Server  LOG     ✓ Compiled in 10ms
+[00:19:23.891] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:26.554] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:26.555] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:26.606] Server  LOG     ✓ Compiled in 10ms
+[00:19:26.828] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:29.556] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:29.557] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:29.603] Server  LOG     ✓ Compiled in 7ms
+[00:19:29.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:19:40.287] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:40.288] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:19:40.348] Server  LOG     ✓ Compiled in 14ms
+[00:19:40.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:30.514] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:30.515] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:30.575] Server  LOG     ✓ Compiled in 10ms
+[00:20:30.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:34.845] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:34.846] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:34.899] Server  LOG     ✓ Compiled in 10ms
+[00:20:35.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:40.460] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:40.461] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:40.506] Server  LOG     ✓ Compiled in 10ms
+[00:20:40.734] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:44.171] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:44.171] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:44.220] Server  LOG     ✓ Compiled in 9ms
+[00:20:44.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:50.039] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:50.039] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:50.093] Server  LOG     ✓ Compiled in 10ms
+[00:20:50.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:52.407] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:52.408] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:52.459] Server  LOG     ✓ Compiled in 13ms
+[00:20:52.707] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:54.614] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:54.615] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:54.688] Server  LOG     ✓ Compiled in 8ms
+[00:20:54.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:20:57.649] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:57.650] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:20:57.698] Server  LOG     ✓ Compiled in 11ms
+[00:20:57.938] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:00.161] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:21:00.161] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:21:00.204] Server  LOG     ✓ Compiled in 7ms
+[00:21:00.429] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:21:16.892] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:21:16.892] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:21:16.945] Server  LOG     ✓ Compiled in 8ms
+[00:21:17.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
