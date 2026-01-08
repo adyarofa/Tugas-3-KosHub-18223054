@@ -80,7 +80,7 @@ Menggunakan Domain-Driven Design (DDD) dengan dua bounded context:
 
 ## Kelompok
 
-- **18223054** - Living Support Service & Frontend Integration
+- **18223054** - Living Support Service
 - **18223088** - Accommodation Service
 
 ---
