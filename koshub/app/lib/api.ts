@@ -61,9 +61,15 @@ livingSupportAxios.interceptors.response.use(
 accommodationAxios.interceptors.request.use(
   (config: any) => {
     const token = localStorage.getItem('accommodation_token');
+    console.log('🔐 Interceptor: accommodation_token from localStorage:', token ? 'EXISTS' : 'NOT FOUND');
+    console.log('🔐 Interceptor: Token value:', token?.substring(0, 20) + '...');
     if (token) {
       config.headers.Authorization = `Bearer ${token}`;
+      console.log('✅ Interceptor: Authorization header set');
+    } else {
+      console.log('❌ Interceptor: No token, Authorization header NOT set');
     }
+    console.log('📡 Interceptor: Final headers:', config.headers);
     return config;
   },
   (error: any) => {
@@ -112,7 +118,7 @@ export const authApi = {
 
 export const accommodationAuthApi = {
   login: async (credentials: LoginCredentials): Promise<AuthResponse> => {
-    const { data } = await accommodationAxios.post('/auth/login', credentials);
+    const { data } = await accommodationAxios.post('auth/login', credentials);
     if (data.session && data.session.access_token) {
       return {
         access_token: data.session.access_token,
@@ -124,7 +130,7 @@ export const accommodationAuthApi = {
   },
 
   register: async (registerData: RegisterData): Promise<AuthResponse> => {
-    const { data } = await accommodationAxios.post('/auth/register', registerData);
+    const { data } = await accommodationAxios.post('auth/register', registerData);
     if (data.session && data.session.access_token) {
       return {
         access_token: data.session.access_token,
@@ -161,56 +167,58 @@ export const accommodationAuthApi = {
 
 export const userApi = {
   getById: async (userId: UUID): Promise<User> => {
-    const { data } = await accommodationAxios.get(`/users/${userId}`);
+    const { data } = await accommodationAxios.get(`users/${userId}`);
     return data;
   },
 };
 
 export const accommodationApi = {
   getAll: async (): Promise<Accommodation[]> => {
-    const { data } = await accommodationAxios.get('/accommodations');
+    console.log('🌐 API: Fetching accommodations from:', ACCOMMODATION_API + '/accommodations');
+    const { data } = await accommodationAxios.get('accommodations');
+    console.log('🌐 API: Raw response:', data);
     return data;
   },
 
   getById: async (id: number): Promise<Accommodation> => {
-    const { data } = await accommodationAxios.get(`/accommodations/${id}`);
+    const { data } = await accommodationAxios.get(`accommodations/${id}`);
     return data;
   },
 
   create: async (accommodation: Omit<Accommodation, 'accommodation_id'>): Promise<Accommodation> => {
-    const { data } = await accommodationAxios.post('/accommodations', accommodation);
+    const { data } = await accommodationAxios.post('accommodations', accommodation);
     return data;
   },
 
   update: async (id: number, accommodation: Partial<Accommodation>): Promise<Accommodation> => {
-    const { data } = await accommodationAxios.put(`/accommodations/${id}`, accommodation);
+    const { data } = await accommodationAxios.put(`accommodations/${id}`, accommodation);
     return data;
   },
 
   delete: async (id: number): Promise<{ message: string }> => {
-    const { data } = await accommodationAxios.delete(`/accommodations/${id}`);
+    const { data } = await accommodationAxios.delete(`accommodations/${id}`);
     return data;
   },
 };
 
 export const bookingApi = {
   getAll: async (): Promise<Booking[]> => {
-    const { data } = await accommodationAxios.get('/bookings');
+    const { data } = await accommodationAxios.get('bookings');
     return data;
   },
 
   getMyBookings: async (): Promise<Booking[]> => {
-    const { data } = await accommodationAxios.get('/bookings');
+    const { data } = await accommodationAxios.get('bookings');
     return data;
   },
 
   getById: async (id: UUID): Promise<Booking> => {
-    const { data } = await accommodationAxios.get(`/bookings/${id}`);
+    const { data } = await accommodationAxios.get(`bookings/${id}`);
     return data;
   },
 
   create: async (bookingData: CreateBookingData): Promise<Booking> => {
-    const { data } = await accommodationAxios.post('/bookings', bookingData);
+    const { data } = await accommodationAxios.post('bookings', bookingData);
     return data;
   },
 
@@ -219,15 +227,16 @@ export const bookingApi = {
     status: 'PENDING' | 'SUCCESS' | 'CANCELLED',
     accommodationId: number
   ): Promise<Booking> => {
+    console.log('🔄 Updating booking status:', { id, status, accommodationId });
     const { data } = await accommodationAxios.put(
-      `/bookings/${id}`,
+      `bookings/${id}/status`,
       { status, accommodation_id: accommodationId }
     );
     return data;
   },
 
   delete: async (id: number): Promise<{ message: string }> => {
-    const { data } = await accommodationAxios.delete(`/bookings/${id}`);
+    const { data } = await accommodationAxios.delete(`bookings/${id}`);
     return data;
   },
 };

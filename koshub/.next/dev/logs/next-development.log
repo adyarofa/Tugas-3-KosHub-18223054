@@ -1,401 +1,495 @@
-[00:00:00.551] Server  LOG     ✓ Ready in 426ms
-[00:00:02.642] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:00:03.039] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:03.154] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:00:07.832] Browser LOG     Living Support Request: POST /auth/login
-[00:00:33.157] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:01:03.158] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:01:34.461] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:02:04.461] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:02:34.461] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:03:01.500] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:03:01.500] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:03:11.842] Browser LOG     Living Support Request: POST /auth/login
-[00:04:19.432] Browser LOG     Living Support Request: POST /auth/register
-[00:04:37.562] Browser LOG     Living Support Response: 200 /auth/login
-[00:04:37.562] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:04:37.562] Browser LOG     Living Support Request: GET /api/laundry
-[00:04:37.562] Browser LOG     Living Support Request: GET /api/catering
-[00:04:37.562] Browser LOG     Living Support Request: GET /api/laundry
-[00:04:37.562] Browser LOG     Living Support Request: GET /api/catering
-[00:04:39.130] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:04:39.400] Browser LOG     Living Support Response: 200 /api/catering
-[00:05:07.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:05:34.036] Browser LOG     Living Support Request: GET /api/notifications
-[00:05:34.036] Browser LOG     Living Support Request: GET /api/notifications
-[00:05:37.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:06:04.516] Browser LOG     Living Support Request: POST /auth/login
-[00:06:06.711] Browser LOG     Living Support Response: 200 /auth/login
-[00:06:06.711] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:06:06.711] Browser LOG     Living Support Request: GET /api/laundry
-[00:06:06.711] Browser LOG     Living Support Request: GET /api/catering
-[00:06:06.711] Browser LOG     Living Support Request: GET /api/laundry
-[00:06:06.711] Browser LOG     Living Support Request: GET /api/catering
-[00:06:07.497] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:06:09.144] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:06:09.144] Browser LOG     Living Support Response: 200 /api/laundry
-[00:06:09.144] Browser LOG     Living Support Response: 200 /api/laundry
-[00:06:09.144] Browser LOG     Living Support Response: 200 /api/catering
-[00:06:09.144] Browser LOG     Accommodation Request: GET /bookings
-[00:06:09.144] Browser LOG     Living Support Response: 200 /api/catering
-[00:06:09.144] Browser LOG     Accommodation Request: GET /bookings
-[00:06:09.369] Browser ERROR   Accommodation Error: {"message":"No authorization header","status":401,"url":"/bookings"}
-[00:06:09.369] Browser LOG     Bookings not available (external service)
-[00:06:09.369] Browser ERROR   Accommodation Error: {"message":"No authorization header","status":401,"url":"/bookings"}
-[00:06:09.369] Browser LOG     Bookings not available (external service)
-[00:06:17.001] Browser LOG     Accommodation Request: GET /accommodations
-[00:06:17.001] Browser LOG     Accommodation Request: GET /accommodations
-[00:06:17.194] Browser ERROR   Accommodation Error: {"message":"No authorization header","status":401,"url":"/accommodations"}
-[00:06:17.194] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/accommodations","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"settle@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:3706:180\nonloadend@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4221:174\nrequest@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:66","status":401}
-[00:06:17.194] Browser ERROR   Accommodation Error: {"message":"No authorization header","status":401,"url":"/accommodations"}
-[00:06:17.194] Browser ERROR   {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/accommodations","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"settle@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:3706:180\nonloadend@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4221:174\nrequest@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:66","status":401}
-[00:06:26.771] Browser LOG     Accommodation Request: POST /auth/login
-[00:06:27.760] Browser LOG     Accommodation Response: 200 /auth/login
-[00:06:34.458] Browser LOG     Accommodation Request: GET /accommodations
-[00:06:34.458] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:06:36.203] Browser LOG     Accommodation Response: 200 /accommodations
-[00:06:36.835] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:06:37.569] Browser LOG     Living Support Response: 200 /auth/register
-[00:06:37.569] Browser LOG     Living Support Request: GET /api/laundry
-[00:06:37.569] Browser LOG     Living Support Request: GET /api/catering
-[00:06:37.569] Browser LOG     Living Support Request: GET /api/laundry
-[00:06:37.569] Browser LOG     Living Support Request: GET /api/catering
-[00:06:37.569] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:06:37.569] Browser LOG     Living Support Response: 200 /api/laundry
-[00:06:37.569] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:06:37.569] Browser LOG     Living Support Response: 200 /api/laundry
-[00:06:37.569] Browser LOG     Accommodation Request: GET /bookings
-[00:06:37.569] Browser LOG     Living Support Response: 200 /api/catering
-[00:06:37.569] Browser LOG     Accommodation Request: GET /bookings
-[00:06:38.569] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:06:38.714] Browser LOG     Accommodation Response: 200 /bookings
-[00:06:39.025] Browser LOG     Living Support Response: 200 /api/laundry
-[00:06:39.237] Browser LOG     Accommodation Response: 200 /bookings
-[00:06:39.237] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:06:39.658] Browser LOG     Living Support Response: 200 /api/laundry
-[00:06:40.902] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:06:41.091] Browser LOG     Living Support Response: 200 /api/catering
-[00:06:41.091] Browser LOG     Accommodation Request: GET /bookings
-[00:06:42.045] Browser LOG     Living Support Response: 200 /api/catering
-[00:06:42.045] Browser LOG     Accommodation Request: GET /bookings
-[00:06:42.212] Browser LOG     Accommodation Response: 200 /bookings
-[00:06:42.212] Browser LOG     Living Support Response: 200 /api/notifications
-[00:06:42.212] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:06:43.089] Browser LOG     Accommodation Response: 200 /bookings
-[00:06:43.089] Browser LOG     Living Support Response: 200 /api/notifications
-[00:06:59.636] Browser LOG     Accommodation Request: POST /bookings
-[00:07:02.522] Browser LOG     Accommodation Response: 201 /bookings
-[00:07:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:07:07.886] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:07:07.886] Browser LOG     Living Support Request: GET /api/laundry
-[00:07:07.886] Browser LOG     Living Support Request: GET /api/catering
-[00:07:07.886] Browser LOG     Living Support Request: GET /api/laundry
-[00:07:07.886] Browser LOG     Living Support Request: GET /api/catering
-[00:07:10.107] Browser LOG     Living Support Response: 200 /api/laundry
-[00:07:10.107] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:07:10.107] Browser LOG     Living Support Response: 200 /api/laundry
-[00:07:10.107] Browser LOG     Living Support Response: 200 /api/catering
-[00:07:10.107] Browser LOG     Accommodation Request: GET /bookings
-[00:07:10.112] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:07:10.210] Browser LOG     Living Support Response: 200 /api/catering
-[00:07:10.210] Browser LOG     Accommodation Request: GET /bookings
-[00:07:10.808] Browser LOG     Accommodation Response: 200 /bookings
-[00:07:10.808] Browser LOG     Accommodation Response: 200 /bookings
-[00:07:11.294] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:07:11.294] Browser LOG     Living Support Request: GET /api/laundry
-[00:07:11.294] Browser LOG     Living Support Request: GET /api/catering
-[00:07:11.879] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:07:11.879] Browser LOG     Living Support Response: 200 /api/catering
-[00:07:11.879] Browser LOG     Living Support Response: 200 /api/laundry
-[00:07:11.879] Browser LOG     Accommodation Request: GET /bookings
-[00:07:12.273] Browser LOG     Accommodation Response: 200 /bookings
-[00:07:16.196] Browser LOG     Living Support Request: POST /auth/login
-[00:07:17.136] Browser LOG     Living Support Response: 200 /auth/login
-[00:07:17.136] Browser LOG     Living Support Request: GET /api/laundry
-[00:07:17.136] Browser LOG     Living Support Request: GET /api/catering
-[00:07:17.136] Browser LOG     Living Support Request: GET /api/laundry
-[00:07:17.136] Browser LOG     Living Support Request: GET /api/catering
-[00:07:17.738] Browser LOG     Living Support Response: 200 /api/laundry
-[00:07:17.739] Browser LOG     Living Support Response: 200 /api/laundry
-[00:07:17.851] Browser LOG     Living Support Response: 200 /api/catering
-[00:07:17.851] Browser LOG     Accommodation Request: GET /bookings
-[00:07:17.851] Browser LOG     Living Support Response: 200 /api/catering
-[00:07:17.851] Browser LOG     Accommodation Request: GET /bookings
-[00:07:18.519] Browser LOG     Accommodation Response: 200 /bookings
-[00:07:19.652] Browser LOG     Accommodation Response: 200 /bookings
-[00:07:37.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:07:40.052] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:07:41.295] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:07:42.423] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:08:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:08:10.397] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:08:11.297] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:08:12.074] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:08:37.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:08:40.207] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:08:41.298] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:08:41.879] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:09:07.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:09:11.299] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:09:11.907] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:09:37.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:09:37.963] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:09:40.304] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:09:41.299] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:09:41.897] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:10:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:10:10.633] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:10:11.305] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:10:11.443] Server  LOG     ✓ Compiled in 182ms
-[00:10:11.898] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:10:28.099] Server  LOG     ✓ Compiled in 29ms
-[00:10:37.500] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:10:40.787] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:10:41.303] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:10:42.076] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:11:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:11:09.434] Server  LOG     ✓ Compiled in 25ms
-[00:11:09.594] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:11:11.304] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:11:12.388] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:11:37.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:11:40.056] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:11:41.305] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:11:41.956] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:12:07.498] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:12:10.467] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:12:11.324] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:12:11.888] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:12:37.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:12:40.272] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:12:42.330] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:12:42.330] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:13:07.499] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:13:09.773] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:13:13.248] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:13:13.248] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:13:20.953] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:13:21.067] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:13:21.067] Browser LOG     Living Support Request: GET /api/laundry
-[00:13:21.067] Browser LOG     Living Support Request: GET /api/catering
-[00:13:22.177] Browser LOG     Living Support Response: 200 /api/catering
-[00:13:24.041] Browser LOG     Living Support Response: 200 /api/laundry
-[00:13:24.041] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:24.041] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:13:26.205] Browser LOG     Living Support Request: POST /auth/login
-[00:13:26.426] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:27.059] Browser LOG     Living Support Response: 200 /auth/login
-[00:13:27.059] Browser LOG     Living Support Request: GET /api/laundry
-[00:13:27.059] Browser LOG     Living Support Request: GET /api/catering
-[00:13:27.059] Browser LOG     Living Support Request: GET /api/laundry
-[00:13:27.059] Browser LOG     Living Support Request: GET /api/catering
-[00:13:28.465] Browser LOG     Living Support Response: 200 /api/catering
-[00:13:40.155] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:13:40.155] Browser LOG     Living Support Request: GET /api/laundry
-[00:13:40.155] Browser LOG     Living Support Request: GET /api/catering
-[00:13:42.376] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:13:42.376] Browser LOG     Living Support Response: 200 /api/catering
-[00:13:43.164] Browser LOG     Living Support Response: 200 /api/laundry
-[00:13:43.164] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:45.272] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:47.411] Browser LOG     Living Support Request: POST /auth/login
-[00:13:47.951] Browser LOG     Living Support Response: 200 /api/laundry
-[00:13:47.952] Browser LOG     Living Support Response: 200 /api/catering
-[00:13:47.952] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:47.952] Browser LOG     Living Support Response: 200 /api/laundry
-[00:13:47.952] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:48.064] Browser LOG     Living Support Response: 200 /auth/login
-[00:13:48.064] Browser LOG     Living Support Request: GET /api/laundry
-[00:13:48.064] Browser LOG     Living Support Request: GET /api/catering
-[00:13:48.064] Browser LOG     Living Support Request: GET /api/laundry
-[00:13:48.064] Browser LOG     Living Support Request: GET /api/catering
-[00:13:48.842] Browser LOG     Living Support Response: 200 /api/catering
-[00:13:48.842] Browser LOG     Living Support Response: 200 /api/catering
-[00:13:48.842] Browser LOG     Living Support Response: 200 /api/laundry
-[00:13:48.842] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:48.842] Browser LOG     Living Support Response: 200 /api/laundry
-[00:13:48.842] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:48.939] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:49.409] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:49.917] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:51.068] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:13:51.091] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:13:52.111] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:14:02.580] Browser LOG     Accommodation Request: PUT /bookings/12
-[00:14:03.833] Browser LOG     Accommodation Request: PUT /bookings/12
-[00:14:04.804] Browser LOG     Accommodation Request: PUT /bookings/13
-[00:14:05.433] Browser LOG     Accommodation Response: 200 /bookings/12
-[00:14:05.433] Browser LOG     Living Support Request: GET /api/laundry
-[00:14:05.433] Browser LOG     Living Support Request: GET /api/catering
-[00:14:05.989] Browser LOG     Accommodation Response: 200 /bookings/12
-[00:14:05.989] Browser LOG     Living Support Request: GET /api/laundry
-[00:14:05.989] Browser LOG     Living Support Request: GET /api/catering
-[00:14:09.034] Browser LOG     Accommodation Request: PUT /bookings/13
-[00:14:09.034] Browser ERROR   Accommodation Error: {"message":"No available units","status":404,"url":"/bookings/13"}
-[00:14:09.034] Browser ERROR   Failed to pay booking: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","data":"{\"status\":\"SUCCESS\",\"accommodation_id\":\"2\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3ODA3MDUxLCJpYXQiOjE3Njc4MDM0NTEsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODAzNDUxfV0sInNlc3Npb25faWQiOiIxYzkyNTJlNy1lMmZlLTQ0YjctOTkwMi00NzkyZWFhNWFhZmQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.pjL8Vy3e_MqcLlGV7A7tj4YlQ1uxYGtcYsrkBj9OGmjuVQFf9qALLrbzpnTGcepN208IoIZO8nWUHCn1L1D_aA","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/bookings/13","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"settle@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:3706:180\nonloadend@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4221:174\nrequest@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:66","status":404}
-[00:14:09.034] Browser LOG     Living Support Response: 200 /api/catering
-[00:14:09.034] Browser LOG     Living Support Response: 200 /api/laundry
-[00:14:09.034] Browser LOG     Living Support Response: 200 /api/catering
-[00:14:09.034] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:09.034] Browser LOG     Living Support Response: 200 /api/laundry
-[00:14:09.034] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:09.034] Browser LOG     Accommodation Response: 200 /bookings/13
-[00:14:09.034] Browser LOG     Living Support Request: GET /api/laundry
-[00:14:09.034] Browser LOG     Living Support Request: GET /api/catering
-[00:14:09.658] Browser LOG     Living Support Response: 200 /api/laundry
-[00:14:09.658] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:09.658] Browser LOG     Living Support Response: 200 /api/catering
-[00:14:09.658] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:09.960] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:10.142] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:12.962] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:14:13.714] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:14:14.208] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:14:14.208] Browser LOG     Living Support Request: GET /api/laundry
-[00:14:14.208] Browser LOG     Living Support Request: GET /api/catering
-[00:14:14.667] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:14:14.804] Browser LOG     Living Support Response: 200 /api/laundry
-[00:14:15.115] Browser LOG     Living Support Response: 200 /api/catering
-[00:14:15.115] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:15.926] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:16.426] Browser LOG     Living Support Request: POST /auth/login
-[00:14:17.111] Browser LOG     Living Support Response: 200 /auth/login
-[00:14:17.111] Browser LOG     Living Support Request: GET /api/laundry
-[00:14:17.111] Browser LOG     Living Support Request: GET /api/catering
-[00:14:17.111] Browser LOG     Living Support Request: GET /api/laundry
-[00:14:17.111] Browser LOG     Living Support Request: GET /api/catering
-[00:14:17.560] Browser LOG     Living Support Response: 200 /api/laundry
-[00:14:17.560] Browser LOG     Living Support Response: 200 /api/laundry
-[00:14:17.685] Browser LOG     Living Support Response: 200 /api/catering
-[00:14:17.685] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:17.685] Browser LOG     Living Support Response: 200 /api/catering
-[00:14:17.685] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:18.130] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:18.237] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:14:21.069] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:14:21.234] Browser ERROR   Living Support Error: {"message":"Network Error","url":"/api/notifications/unread-count"}
-[00:14:21.234] Browser ERROR   Failed to fetch unread notifications: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223054.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3ODA3NDcxLCJpYXQiOjE3Njc4MDM4NzEsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODAzODcxfV0sInNlc3Npb25faWQiOiJlNjY3NzEyMy01Mzg2LTQ5ZDktYWM4Zi1hN2IyZDI3YzBmYzciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XRUUGzOeLdHoeWPpXpJW0OWUvPJYM0Ts8l_ptNXObtpAcUkPk1zVEZQ3zq-gb3TKtbWLKY8lISbkyDWP58Y07Q","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/notifications/unread-count","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"AxiosError: Network Error\n    at XMLHttpRequest.handleError (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4267:25)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:49)\n    at async Object.getUnreadCount (http://localhost:3001/_next/static/chunks/app_9befdfdc._.js:310:26)\n    at async fetchUnreadCount (http://localhost:3001/_next/static/chunks/app_9befdfdc._.js:459:38)"}
-[00:14:37.672] Browser LOG     Accommodation Request: GET /accommodations
-[00:14:37.672] Browser LOG     Accommodation Request: GET /accommodations
-[00:14:40.410] Browser LOG     Accommodation Response: 200 /accommodations
-[00:14:40.839] Browser LOG     Accommodation Response: 200 /accommodations
-[00:14:44.210] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:14:46.423] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:14:51.068] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:14:52.070] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:15:08.487] Browser LOG     Accommodation Request: POST /bookings
-[00:15:11.732] Browser LOG     Accommodation Response: 201 /bookings
-[00:15:14.210] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:15:17.099] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:15:21.069] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:15:21.894] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:15:22.714] Browser LOG     Living Support Request: GET /api/laundry
-[00:15:22.714] Browser LOG     Living Support Request: GET /api/catering
-[00:15:22.714] Browser LOG     Living Support Request: GET /api/laundry
-[00:15:22.714] Browser LOG     Living Support Request: GET /api/catering
-[00:15:23.506] Browser LOG     Living Support Response: 200 /api/laundry
-[00:15:24.047] Browser LOG     Living Support Response: 200 /api/laundry
-[00:15:24.708] Browser LOG     Living Support Response: 200 /api/catering
-[00:15:24.708] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:15:25.415] Browser LOG     Living Support Response: 200 /api/catering
-[00:15:25.415] Browser LOG     Accommodation Request: GET /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:15:26.697] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:15:27.285] Browser LOG     Accommodation Response: 200 /bookings/e0e681c0-eab2-44ee-aa97-bd716bb6e468
-[00:15:33.183] Browser LOG     Living Support Request: GET /api/notifications
-[00:15:33.183] Browser LOG     Living Support Request: GET /api/notifications
-[00:15:33.881] Browser LOG     Living Support Response: 200 /api/notifications
-[00:15:34.287] Browser LOG     Living Support Response: 200 /api/notifications
-[00:15:44.210] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:15:47.195] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:15:51.070] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:15:52.341] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:16:14.212] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:16:16.643] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:16:21.069] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:16:21.865] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:16:24.341] Server  LOG     ✓ Compiled in 17ms
-[00:16:44.213] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:16:46.654] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:16:51.070] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:16:52.287] Browser LOG     Living Support Response: 200 /api/notifications/unread-count
-[00:16:58.657] Server  LOG     ✓ Compiled in 11ms
-[00:17:01.913] Server  LOG     ✓ Compiled in 10ms
-[00:17:04.909] Server  LOG     ✓ Compiled in 10ms
-[00:17:08.396] Server  LOG     ✓ Compiled in 12ms
-[00:17:14.213] Browser LOG     Living Support Request: GET /api/notifications/unread-count
-[00:17:15.940] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:17:15.940] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:17:16.000] Server  LOG     ✓ Compiled in 12ms
-[00:17:16.110] Browser ERROR   Living Support Error: {"message":"Network Error","url":"/api/notifications/unread-count"}
-[00:17:16.110] Browser ERROR   Failed to fetch unread notifications: {"code":"ERR_NETWORK","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223054.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY3ODA3NTIxLCJpYXQiOjE3Njc4MDM5MjEsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODAzOTIxfV0sInNlc3Npb25faWQiOiI2MjNlNmU2Zi05ZmQwLTQwNzItYTIyNi0zZjA1N2JlZGM5MDciLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.CW0HOsGrg1tQvp2R7yfDyb0S0cRoKsTbnsYPf0alC_JecsgcaKhT0Y7Sy6pinApVVXlSQ1SSagHnslswUREefA","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"/api/notifications/unread-count","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Network Error","name":"AxiosError","stack":"handleError@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4267:189\nrequest@http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:66"}
-[00:17:16.269] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:02.056] Server  LOG     ✓ Compiled in 10ms
-[00:18:19.122] Server  LOG     ✓ Compiled in 15ms
-[00:18:25.366] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:18:25.366] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:18:25.433] Server  LOG     ✓ Compiled in 12ms
-[00:18:25.614] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:18:28.094] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:18:28.095] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:18:28.169] Server  LOG     ✓ Compiled in 14ms
-[00:18:28.344] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:19.424] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:19.425] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:19.478] Server  LOG     ✓ Compiled in 11ms
-[00:19:19.741] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:23.605] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:23.606] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:23.655] Server  LOG     ✓ Compiled in 10ms
-[00:19:23.891] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:26.554] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:26.555] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:26.606] Server  LOG     ✓ Compiled in 10ms
-[00:19:26.828] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:29.556] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:29.557] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:29.603] Server  LOG     ✓ Compiled in 7ms
-[00:19:29.849] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:19:40.287] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:40.288] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:19:40.348] Server  LOG     ✓ Compiled in 14ms
-[00:19:40.587] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:30.514] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:30.515] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:30.575] Server  LOG     ✓ Compiled in 10ms
-[00:20:30.798] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:34.845] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:34.846] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:34.899] Server  LOG     ✓ Compiled in 10ms
-[00:20:35.129] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:40.460] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:40.461] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:40.506] Server  LOG     ✓ Compiled in 10ms
-[00:20:40.734] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:44.171] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:44.171] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:44.220] Server  LOG     ✓ Compiled in 9ms
-[00:20:44.445] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:50.039] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:50.039] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:50.093] Server  LOG     ✓ Compiled in 10ms
-[00:20:50.349] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:52.407] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:52.408] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:52.459] Server  LOG     ✓ Compiled in 13ms
-[00:20:52.707] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:54.614] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:54.615] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:54.688] Server  LOG     ✓ Compiled in 8ms
-[00:20:54.894] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:20:57.649] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:57.650] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:20:57.698] Server  LOG     ✓ Compiled in 11ms
-[00:20:57.938] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:00.161] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:21:00.161] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:21:00.204] Server  LOG     ✓ Compiled in 7ms
-[00:21:00.429] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:21:16.892] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:21:16.892] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
-[00:21:16.945] Server  LOG     ✓ Compiled in 8ms
-[00:21:17.168] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:00.499] Server  LOG     ✓ Ready in 367ms
+[00:00:00.850] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:00:01.788] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:00:07.655] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:17.634] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:20.938] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:21.642] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:31.703] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:00:38.280] Browser LOG     🔐 Attempting login...
+[00:00:38.281] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: NOT FOUND
+[00:00:38.281] Browser LOG     🔐 Interceptor: Token value: undefined...
+[00:00:38.281] Browser LOG     ❌ Interceptor: No token, Authorization header NOT set
+[00:00:38.281] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Content-Type":"application/json"}
+[00:00:38.851] Browser LOG     ✅ Login response: {"access_token":"eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5NTk4LCJpYXQiOjE3Njc4MzQ3OTgsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM0Nzk4fV0sInNlc3Npb25faWQiOiI3YmQ0ZTBkZS1lMWYyLTQzYjMtOGYxNC1kMzc1ZmNhNmRkMDQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.I3lEW-cRs8N77QnNCNh_bx0yCJwAiiVL4sES2m3edfR0-UBSF1sjo6xliXKiOYFYP4cU8iXnhae4MrYzPc868w","expires_in":604800,"user":{"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:13:18.728146897Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:13:18.730824Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}}
+[00:00:38.851] Browser LOG     🎫 Token: eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5NTk4LCJpYXQiOjE3Njc4MzQ3OTgsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM0Nzk4fV0sInNlc3Npb25faWQiOiI3YmQ0ZTBkZS1lMWYyLTQzYjMtOGYxNC1kMzc1ZmNhNmRkMDQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.I3lEW-cRs8N77QnNCNh_bx0yCJwAiiVL4sES2m3edfR0-UBSF1sjo6xliXKiOYFYP4cU8iXnhae4MrYzPc868w
+[00:00:38.851] Browser LOG     💾 Token saved to localStorage
+[00:00:38.851] Browser LOG     🏠 fetchAccommodations called, showLoading: true
+[00:00:38.851] Browser LOG     🔑 Token exists: true
+[00:00:38.851] Browser LOG     👤 User: {"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:13:18.728146897Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:13:18.730824Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}
+[00:00:38.851] Browser LOG     📡 Calling accommodationApi.getAll()...
+[00:00:38.851] Browser LOG     🌐 API: Fetching accommodations from: https://18223088.tesatepadang.space//accommodations
+[00:00:38.851] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:00:38.851] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:00:38.851] Browser LOG     ✅ Interceptor: Authorization header set
+[00:00:38.851] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5NTk4LCJpYXQiOjE3Njc4MzQ3OTgsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM0Nzk4fV0sInNlc3Npb25faWQiOiI3YmQ0ZTBkZS1lMWYyLTQzYjMtOGYxNC1kMzc1ZmNhNmRkMDQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.I3lEW-cRs8N77QnNCNh_bx0yCJwAiiVL4sES2m3edfR0-UBSF1sjo6xliXKiOYFYP4cU8iXnhae4MrYzPc868w","Content-Type":"application/json"}
+[00:00:38.851] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:00:38.851] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:00:38.852] Browser LOG     ✅ Interceptor: Authorization header set
+[00:00:38.852] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5NTk4LCJpYXQiOjE3Njc4MzQ3OTgsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM0Nzk4fV0sInNlc3Npb25faWQiOiI3YmQ0ZTBkZS1lMWYyLTQzYjMtOGYxNC1kMzc1ZmNhNmRkMDQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.I3lEW-cRs8N77QnNCNh_bx0yCJwAiiVL4sES2m3edfR0-UBSF1sjo6xliXKiOYFYP4cU8iXnhae4MrYzPc868w","Content-Type":"application/json"}
+[00:00:40.627] Browser LOG     🌐 API: Raw response: []
+[00:00:40.627] Browser LOG     ✅ Accommodations received: []
+[00:00:40.627] Browser LOG     📊 Is array: true
+[00:00:40.627] Browser LOG     📏 Length: 0
+[00:01:01.691] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:01:31.672] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:02:01.664] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:02:31.706] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:03:01.704] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:03:32.663] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:04:03.657] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:04:34.654] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:04:39.809] Browser LOG     🔐 Attempting login...
+[00:04:39.809] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: NOT FOUND
+[00:04:39.809] Browser LOG     🔐 Interceptor: Token value: undefined...
+[00:04:39.809] Browser LOG     ❌ Interceptor: No token, Authorization header NOT set
+[00:04:39.809] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Content-Type":"application/json"}
+[00:04:40.364] Browser LOG     ✅ Login response: {"access_token":"eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","expires_in":604800,"user":{"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:17:20.230831753Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:17:20.237588Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}}
+[00:04:40.364] Browser LOG     🎫 Token: eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA
+[00:04:40.364] Browser LOG     💾 Token saved to localStorage
+[00:04:40.364] Browser LOG     🏠 fetchAccommodations called, showLoading: true
+[00:04:40.364] Browser LOG     🔑 Token exists: true
+[00:04:40.364] Browser LOG     👤 User: {"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:17:20.230831753Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:17:20.237588Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}
+[00:04:40.364] Browser LOG     📡 Calling accommodationApi.getAll()...
+[00:04:40.364] Browser LOG     🌐 API: Fetching accommodations from: https://18223088.tesatepadang.space//accommodations
+[00:04:40.364] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:04:40.364] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:04:40.364] Browser LOG     ✅ Interceptor: Authorization header set
+[00:04:40.364] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"}
+[00:04:40.364] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:04:40.364] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:04:40.364] Browser LOG     ✅ Interceptor: Authorization header set
+[00:04:40.364] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"}
+[00:04:42.006] Browser LOG     🌐 API: Raw response: []
+[00:04:42.006] Browser LOG     ✅ Accommodations received: []
+[00:04:42.006] Browser LOG     📊 Is array: true
+[00:04:42.006] Browser LOG     📏 Length: 0
+[00:05:05.761] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:05:09.565] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:05:09.565] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:05:09.565] Browser LOG     ✅ Interceptor: Authorization header set
+[00:05:09.565] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"}
+[00:05:10.641] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:05:10.641] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:05:10.641] Browser LOG     ✅ Interceptor: Authorization header set
+[00:05:10.641] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"}
+[00:05:15.737] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:05:15.737] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:05:15.737] Browser LOG     ✅ Interceptor: Authorization header set
+[00:05:15.737] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"}
+[00:05:15.737] Browser ERROR   Accommodation Error: 404 bookings/2
+[00:05:15.737] Browser ERROR   Failed to pay booking: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","data":"{\"status\":\"SUCCESS\",\"accommodation_id\":\"1\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"bookings/2","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:3706:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4221:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:49)\n    at async Object.updateStatus (http://localhost:3001/_next/static/chunks/app_9befdfdc._.js:194:26)\n    at async handlePayBooking (http://localhost:3001/_next/static/chunks/app_accommodations_page_tsx_2eba1e57._.js:234:13)","status":404}
+[00:05:15.737] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:05:15.737] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:05:15.737] Browser LOG     ✅ Interceptor: Authorization header set
+[00:05:15.737] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"}
+[00:05:15.737] Browser ERROR   Accommodation Error: 404 bookings/2
+[00:05:15.737] Browser ERROR   Failed to pay booking: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","data":"{\"status\":\"SUCCESS\",\"accommodation_id\":\"1\"}","env":{},"headers":{"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"put","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"bookings/2","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 404","name":"AxiosError","stack":"AxiosError: Request failed with status code 404\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:3706:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:4221:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_d85f78cb._.js:5025:49)\n    at async Object.updateStatus (http://localhost:3001/_next/static/chunks/app_9befdfdc._.js:194:26)\n    at async handlePayBooking (http://localhost:3001/_next/static/chunks/app_accommodations_page_tsx_2eba1e57._.js:234:13)","status":404}
+[00:05:36.663] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:05:59.959] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:05:59.959] Server  WARN    ⚠ Fast Refresh had to perform a full reload when ./app/lib/api.ts changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[00:06:00.073] Server  LOG     ✓ Compiled in 29ms
+[00:06:00.467] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:06:00.568] Browser LOG     🏠 fetchAccommodations called, showLoading: true
+[00:06:00.568] Browser LOG     🔑 Token exists: true
+[00:06:00.568] Browser LOG     👤 User: {"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:17:20.230831753Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:17:20.237588Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}
+[00:06:00.568] Browser LOG     📡 Calling accommodationApi.getAll()...
+[00:06:00.568] Browser LOG     🌐 API: Fetching accommodations from: https://18223088.tesatepadang.space//accommodations
+[00:06:00.568] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:06:00.568] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:06:00.568] Browser LOG     ✅ Interceptor: Authorization header set
+[00:06:00.568] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"}
+[00:06:00.568] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:06:00.568] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:06:00.568] Browser LOG     ✅ Interceptor: Authorization header set
+[00:06:00.568] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDM5ODQwLCJpYXQiOjE3Njc4MzUwNDAsImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MDQwfV0sInNlc3Npb25faWQiOiIwYjZmMjE3YS1mNWNjLTQ5MWItOTQ1Zi1hNTM4MzJiOWJhOGUiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.XaYYL-t6FpvntbqZXaKzN80rF9p-AyP-xmBXIYHlXpkWHiJ0XNMggS5UyRECX8kwPue9GhJl1Ddm7mycsKrtfA","Content-Type":"application/json"}
+[00:06:01.099] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:06:02.314] Browser LOG     🌐 API: Raw response: []
+[00:06:02.314] Browser LOG     ✅ Accommodations received: []
+[00:06:02.314] Browser LOG     📊 Is array: true
+[00:06:02.314] Browser LOG     📏 Length: 0
+[00:06:30.963] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:07:01.013] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:07:25.693] Server  LOG     ✓ Compiled in 117ms
+[00:07:25.950] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:26.353] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:07:36.139] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:07:56.341] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:08:04.225] Browser LOG     🔐 Attempting login...
+[00:08:04.225] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: NOT FOUND
+[00:08:04.225] Browser LOG     🔐 Interceptor: Token value: undefined...
+[00:08:04.225] Browser LOG     ❌ Interceptor: No token, Authorization header NOT set
+[00:08:04.225] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Content-Type":"application/json"}
+[00:08:09.123] Browser LOG     ✅ Login response: {"access_token":"eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDQwMDQ5LCJpYXQiOjE3Njc4MzUyNDksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MjQ5fV0sInNlc3Npb25faWQiOiIyNDc4NGJiMi1hNDUxLTQ0YjQtYjY3Ni1kMWQ5NGE0ODYzNjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.DKcYnAnjc_MnR6zW1uaU-tqlYEoStHNvBVOHDZ3ScYpggMmP1P6_4he_Mk-IqiqmdXyJtRJuscdaEUtnwRhBrg","expires_in":604800,"user":{"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:20:48.991659449Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:20:49.000839Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}}
+[00:08:09.123] Browser LOG     🎫 Token: eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDQwMDQ5LCJpYXQiOjE3Njc4MzUyNDksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MjQ5fV0sInNlc3Npb25faWQiOiIyNDc4NGJiMi1hNDUxLTQ0YjQtYjY3Ni1kMWQ5NGE0ODYzNjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.DKcYnAnjc_MnR6zW1uaU-tqlYEoStHNvBVOHDZ3ScYpggMmP1P6_4he_Mk-IqiqmdXyJtRJuscdaEUtnwRhBrg
+[00:08:09.123] Browser LOG     💾 Token saved to localStorage
+[00:08:09.123] Browser LOG     🏠 fetchAccommodations called, showLoading: true
+[00:08:09.123] Browser LOG     🔑 Token exists: true
+[00:08:09.123] Browser LOG     👤 User: {"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:20:48.991659449Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:20:49.000839Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}
+[00:08:09.123] Browser LOG     📡 Calling accommodationApi.getAll()...
+[00:08:09.123] Browser LOG     🌐 API: Fetching accommodations from: https://18223088.tesatepadang.space//accommodations
+[00:08:09.123] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:08:09.123] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:08:09.123] Browser LOG     ✅ Interceptor: Authorization header set
+[00:08:09.123] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDQwMDQ5LCJpYXQiOjE3Njc4MzUyNDksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MjQ5fV0sInNlc3Npb25faWQiOiIyNDc4NGJiMi1hNDUxLTQ0YjQtYjY3Ni1kMWQ5NGE0ODYzNjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.DKcYnAnjc_MnR6zW1uaU-tqlYEoStHNvBVOHDZ3ScYpggMmP1P6_4he_Mk-IqiqmdXyJtRJuscdaEUtnwRhBrg","Content-Type":"application/json"}
+[00:08:09.123] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:08:09.123] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:08:09.123] Browser LOG     ✅ Interceptor: Authorization header set
+[00:08:09.123] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDQwMDQ5LCJpYXQiOjE3Njc4MzUyNDksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MjQ5fV0sInNlc3Npb25faWQiOiIyNDc4NGJiMi1hNDUxLTQ0YjQtYjY3Ni1kMWQ5NGE0ODYzNjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.DKcYnAnjc_MnR6zW1uaU-tqlYEoStHNvBVOHDZ3ScYpggMmP1P6_4he_Mk-IqiqmdXyJtRJuscdaEUtnwRhBrg","Content-Type":"application/json"}
+[00:08:10.763] Browser LOG     🌐 API: Raw response: []
+[00:08:10.763] Browser LOG     ✅ Accommodations received: []
+[00:08:10.763] Browser LOG     📊 Is array: true
+[00:08:10.763] Browser LOG     📏 Length: 0
+[00:08:26.444] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:08:56.979] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:09:26.354] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:09:56.341] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:10:26.360] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:10:56.669] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:11:27.855] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:11:58.780] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:12:29.960] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:13:00.778] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:13:31.763] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:14:02.788] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:14:34.000] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:15:04.866] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:15:35.651] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:16:06.799] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:16:37.846] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:17:08.774] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:17:39.771] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:18:10.813] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:18:41.796] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:19:12.829] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:19:43.879] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:20:14.952] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:20:45.771] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:21:16.782] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:21:47.847] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:22:19.546] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:22:49.808] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:23:20.833] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:23:51.837] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:24:23.068] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:24:53.656] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:25:24.685] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:25:55.690] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:26:26.706] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:26:57.659] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:27:28.775] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:27:39.216] Browser ERROR   Living Support Error: undefined /api/notifications/unread-count
+[00:27:59.784] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:28:30.981] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:29:01.849] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:29:32.788] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:30:03.821] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:30:34.671] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:31:05.839] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:31:36.667] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:32:07.396] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:32:38.031] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:35:56.178] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:50:04.194] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:50:30.971] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:50:32.566] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:50:32.689] Browser LOG     🏠 fetchAccommodations called, showLoading: true
+[00:50:32.689] Browser LOG     🔑 Token exists: true
+[00:50:32.689] Browser LOG     👤 User: {"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:20:48.991659449Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:20:49.000839Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}
+[00:50:32.689] Browser LOG     📡 Calling accommodationApi.getAll()...
+[00:50:32.689] Browser LOG     🌐 API: Fetching accommodations from: https://18223088.tesatepadang.space//accommodations
+[00:50:32.689] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:50:32.689] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:50:32.689] Browser LOG     ✅ Interceptor: Authorization header set
+[00:50:32.689] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDQwMDQ5LCJpYXQiOjE3Njc4MzUyNDksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MjQ5fV0sInNlc3Npb25faWQiOiIyNDc4NGJiMi1hNDUxLTQ0YjQtYjY3Ni1kMWQ5NGE0ODYzNjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.DKcYnAnjc_MnR6zW1uaU-tqlYEoStHNvBVOHDZ3ScYpggMmP1P6_4he_Mk-IqiqmdXyJtRJuscdaEUtnwRhBrg","Content-Type":"application/json"}
+[00:50:32.689] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[00:50:32.689] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[00:50:32.689] Browser LOG     ✅ Interceptor: Authorization header set
+[00:50:32.689] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDQwMDQ5LCJpYXQiOjE3Njc4MzUyNDksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MjQ5fV0sInNlc3Npb25faWQiOiIyNDc4NGJiMi1hNDUxLTQ0YjQtYjY3Ni1kMWQ5NGE0ODYzNjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.DKcYnAnjc_MnR6zW1uaU-tqlYEoStHNvBVOHDZ3ScYpggMmP1P6_4he_Mk-IqiqmdXyJtRJuscdaEUtnwRhBrg","Content-Type":"application/json"}
+[00:50:34.854] Browser LOG     🌐 API: Raw response: []
+[00:50:34.855] Browser LOG     ✅ Accommodations received: []
+[00:50:34.855] Browser LOG     📊 Is array: true
+[00:50:34.855] Browser LOG     📏 Length: 0
+[00:51:01.316] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:51:31.986] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:52:02.807] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:52:33.769] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:53:04.775] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:53:35.785] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:54:06.981] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:54:37.914] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:55:08.890] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:55:40.097] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:56:11.062] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:56:41.990] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:57:12.910] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:57:44.128] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:58:14.900] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:58:46.114] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:59:17.054] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[00:59:47.987] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:00:18.946] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:00:49.980] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:01:20.901] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:01:51.998] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:02:22.970] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:02:54.453] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:03:24.939] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:03:54.918] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:04:24.885] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:04:56.022] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:05:26.917] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:05:57.779] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:06:29.381] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:06:59.778] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:07:30.909] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:08:01.964] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:08:33.828] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:09:03.861] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:09:34.800] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:10:05.797] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:10:36.807] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:11:07.150] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:12:24.919] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:32:28.738] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:32:53.079] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:43:35.655] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[01:48:12.584] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[02:04:12.160] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[02:04:36.380] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[02:20:32.310] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[02:36:28.581] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[02:52:23.920] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[02:52:47.814] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[03:12:27.077] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[03:12:54.208] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[03:22:04.141] Browser ERROR   Living Support Error: undefined /api/notifications/unread-count
+[03:39:25.418] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:28:05.855] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:28:06.176] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[06:28:06.323] Browser LOG     🏠 fetchAccommodations called, showLoading: true
+[06:28:06.323] Browser LOG     🔑 Token exists: true
+[06:28:06.323] Browser LOG     👤 User: {"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:20:48.991659449Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:20:49.000839Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}
+[06:28:06.323] Browser LOG     📡 Calling accommodationApi.getAll()...
+[06:28:06.323] Browser LOG     🌐 API: Fetching accommodations from: https://18223088.tesatepadang.space//accommodations
+[06:28:06.323] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[06:28:06.323] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[06:28:06.323] Browser LOG     ✅ Interceptor: Authorization header set
+[06:28:06.323] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDQwMDQ5LCJpYXQiOjE3Njc4MzUyNDksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MjQ5fV0sInNlc3Npb25faWQiOiIyNDc4NGJiMi1hNDUxLTQ0YjQtYjY3Ni1kMWQ5NGE0ODYzNjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.DKcYnAnjc_MnR6zW1uaU-tqlYEoStHNvBVOHDZ3ScYpggMmP1P6_4he_Mk-IqiqmdXyJtRJuscdaEUtnwRhBrg","Content-Type":"application/json"}
+[06:28:06.323] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[06:28:06.323] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[06:28:06.323] Browser LOG     ✅ Interceptor: Authorization header set
+[06:28:06.323] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDQwMDQ5LCJpYXQiOjE3Njc4MzUyNDksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODM1MjQ5fV0sInNlc3Npb25faWQiOiIyNDc4NGJiMi1hNDUxLTQ0YjQtYjY3Ni1kMWQ5NGE0ODYzNjYiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.DKcYnAnjc_MnR6zW1uaU-tqlYEoStHNvBVOHDZ3ScYpggMmP1P6_4he_Mk-IqiqmdXyJtRJuscdaEUtnwRhBrg","Content-Type":"application/json"}
+[06:28:08.713] Browser LOG     🌐 API: Raw response: []
+[06:28:08.713] Browser LOG     ✅ Accommodations received: []
+[06:28:08.713] Browser LOG     📊 Is array: true
+[06:28:08.713] Browser LOG     📏 Length: 0
+[06:28:32.656] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:29:03.177] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:29:33.164] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:30:03.853] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:30:34.805] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:31:06.047] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:31:37.154] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:32:07.666] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:32:39.171] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:33:09.636] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:33:40.748] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:34:11.789] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:34:42.786] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:35:13.776] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:35:43.878] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:36:13.767] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:36:43.770] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:37:14.745] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:37:45.859] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:38:16.882] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:38:47.765] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:39:18.833] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:39:49.872] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:40:20.809] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:40:51.973] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:41:22.868] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:41:53.765] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:42:25.149] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:42:55.992] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:43:26.844] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:43:58.039] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:44:28.779] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:45:00.020] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:45:30.777] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:46:01.822] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:46:32.835] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:47:04.008] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:47:34.789] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:48:05.786] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:48:36.892] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:49:07.820] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:49:38.877] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:50:09.653] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:50:40.850] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:51:11.665] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:51:42.881] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:52:13.738] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:52:44.842] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:53:15.926] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:53:46.950] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:54:11.195] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:54:17.795] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:54:47.770] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:55:17.811] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:55:48.753] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:56:19.800] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:56:50.930] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:57:21.779] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:57:52.754] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:58:23.821] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:58:55.457] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:59:25.858] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[06:59:56.765] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:00:27.784] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:00:59.165] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:01:29.811] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:02:00.798] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:02:32.080] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:03:02.979] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:03:33.965] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:04:04.807] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:04:35.786] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:05:06.735] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:05:36.776] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:06:06.669] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:06:36.763] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:07:07.640] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:07:38.774] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:08:09.678] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:08:40.945] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:09:11.636] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:09:42.865] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:10:13.938] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:10:44.779] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:11:15.859] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:11:46.755] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:12:17.895] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:12:49.042] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:13:19.898] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:13:50.762] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:14:21.867] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:14:53.271] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:15:23.774] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:15:54.978] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:16:25.985] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:16:56.942] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:17:27.841] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:17:58.834] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:18:29.883] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:19:00.996] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:19:31.756] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:20:02.755] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:20:33.818] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:21:05.010] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:21:35.875] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:22:06.637] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:22:37.896] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:23:08.633] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:23:39.838] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:24:10.661] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:24:41.775] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:25:12.937] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:25:43.844] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:26:14.769] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:26:45.948] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:27:16.808] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:27:48.135] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:28:18.785] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:28:38.265] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[07:28:42.455] Browser LOG     🏠 fetchAccommodations called, showLoading: true
+[07:28:42.455] Browser LOG     🔑 Token exists: true
+[07:28:42.455] Browser LOG     👤 User: {"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T01:20:48.991659449Z","phone":"","role":"authenticated","updated_at":"2026-01-08T01:20:49.000839Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}
+[07:28:42.455] Browser LOG     📡 Calling accommodationApi.getAll()...
+[07:28:42.455] Browser LOG     🌐 API: Fetching accommodations from: https://18223088.tesatepadang.space//accommodations
+[07:28:42.455] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: NOT FOUND
+[07:28:42.455] Browser LOG     🔐 Interceptor: Token value: undefined...
+[07:28:42.455] Browser LOG     ❌ Interceptor: No token, Authorization header NOT set
+[07:28:42.455] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Content-Type":"application/json"}
+[07:28:42.455] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: NOT FOUND
+[07:28:42.455] Browser LOG     🔐 Interceptor: Token value: undefined...
+[07:28:42.455] Browser LOG     ❌ Interceptor: No token, Authorization header NOT set
+[07:28:42.455] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Content-Type":"application/json"}
+[07:28:42.868] Browser ERROR   Failed to load bookings: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"bookings","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_09d1efc2._.js:3706:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_09d1efc2._.js:4221:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_09d1efc2._.js:5025:49)\n    at async Object.getMyBookings (http://localhost:3001/_next/static/chunks/app_9befdfdc._.js:182:26)\n    at async fetchUserBookings (http://localhost:3001/_next/static/chunks/app_accommodations_page_tsx_2eba1e57._.js:110:26)","status":401}
+[07:28:42.868] Browser ERROR   ❌ Failed to load accommodations: {"code":"ERR_BAD_REQUEST","config":{"adapter":["xhr","http","fetch"],"allowAbsoluteUrls":true,"baseURL":"https://18223088.tesatepadang.space/","env":{},"headers":{"Accept":"application/json, text/plain, */*","Content-Type":"application/json"},"maxBodyLength":-1,"maxContentLength":-1,"method":"get","timeout":0,"transformRequest":[null],"transformResponse":[null],"transitional":{"clarifyTimeoutError":false,"forcedJSONParsing":true,"silentJSONParsing":true},"url":"accommodations","xsrfCookieName":"XSRF-TOKEN","xsrfHeaderName":"X-XSRF-TOKEN"},"message":"Request failed with status code 401","name":"AxiosError","stack":"AxiosError: Request failed with status code 401\n    at settle (http://localhost:3001/_next/static/chunks/node_modules_09d1efc2._.js:3706:16)\n    at XMLHttpRequest.onloadend (http://localhost:3001/_next/static/chunks/node_modules_09d1efc2._.js:4221:174)\n    at Axios.request (http://localhost:3001/_next/static/chunks/node_modules_09d1efc2._.js:5025:49)\n    at async Object.getAll (http://localhost:3001/_next/static/chunks/app_9befdfdc._.js:155:26)\n    at async fetchAccommodations (http://localhost:3001/_next/static/chunks/app_accommodations_page_tsx_2eba1e57._.js:92:26)","status":401}
+[07:28:42.868] Browser ERROR   ❌ Error response: {"message":"No authorization header"}
+[07:28:42.868] Browser ERROR   ❌ Error status: 401
+[07:28:48.114] Browser LOG     🔐 Attempting login...
+[07:28:48.115] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: NOT FOUND
+[07:28:48.115] Browser LOG     🔐 Interceptor: Token value: undefined...
+[07:28:48.115] Browser LOG     ❌ Interceptor: No token, Authorization header NOT set
+[07:28:48.115] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Content-Type":"application/json"}
+[07:28:48.968] Browser LOG     ✅ Login response: {"access_token":"eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDY2NDg5LCJpYXQiOjE3Njc4NjE2ODksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODYxNjg5fV0sInNlc3Npb25faWQiOiIwMzQyYjMzNy0yMThhLTQ5YTUtOGYzYi0wNGU1MzJmODEzNjQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.mctn8Hf9IP1dPhjWrdlZQIOsbAnu9KtbY6sj8yAtpcVZKOL86jkoCrIMibEA6bMtnCetiVYfM-qWB85NxcrS-w","expires_in":604800,"user":{"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T08:41:28.943993606Z","phone":"","role":"authenticated","updated_at":"2026-01-08T08:41:29.034384Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}}
+[07:28:48.968] Browser LOG     🎫 Token: eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDY2NDg5LCJpYXQiOjE3Njc4NjE2ODksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODYxNjg5fV0sInNlc3Npb25faWQiOiIwMzQyYjMzNy0yMThhLTQ5YTUtOGYzYi0wNGU1MzJmODEzNjQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.mctn8Hf9IP1dPhjWrdlZQIOsbAnu9KtbY6sj8yAtpcVZKOL86jkoCrIMibEA6bMtnCetiVYfM-qWB85NxcrS-w
+[07:28:48.968] Browser LOG     💾 Token saved to localStorage
+[07:28:48.968] Browser LOG     🏠 fetchAccommodations called, showLoading: true
+[07:28:48.968] Browser LOG     🔑 Token exists: true
+[07:28:48.968] Browser LOG     👤 User: {"app_metadata":{"provider":"email","providers":["email"]},"aud":"authenticated","confirmed_at":"2026-01-05T11:07:19.568705Z","created_at":"2026-01-05T11:07:19.495276Z","email":"allodyaq@gmail.com","email_confirmed_at":"2026-01-05T11:07:19.568705Z","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identities":[{"created_at":"2026-01-05T11:07:19.549122Z","email":"allodyaq@gmail.com","id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468","identity_data":{"email":"allodyaq@gmail.com","email_verified":false,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"},"identity_id":"8e9ea31c-70ab-426b-ba04-6bc11365fbef","last_sign_in_at":"2026-01-05T11:07:19.549066Z","provider":"email","updated_at":"2026-01-05T11:07:19.549122Z","user_id":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}],"is_anonymous":false,"last_sign_in_at":"2026-01-08T08:41:28.943993606Z","phone":"","role":"authenticated","updated_at":"2026-01-08T08:41:29.034384Z","user_metadata":{"email":"allodyaq@gmail.com","email_verified":true,"phone_verified":false,"sub":"e0e681c0-eab2-44ee-aa97-bd716bb6e468"}}
+[07:28:48.968] Browser LOG     📡 Calling accommodationApi.getAll()...
+[07:28:48.968] Browser LOG     🌐 API: Fetching accommodations from: https://18223088.tesatepadang.space//accommodations
+[07:28:48.968] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[07:28:48.968] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[07:28:48.968] Browser LOG     ✅ Interceptor: Authorization header set
+[07:28:48.968] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDY2NDg5LCJpYXQiOjE3Njc4NjE2ODksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODYxNjg5fV0sInNlc3Npb25faWQiOiIwMzQyYjMzNy0yMThhLTQ5YTUtOGYzYi0wNGU1MzJmODEzNjQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.mctn8Hf9IP1dPhjWrdlZQIOsbAnu9KtbY6sj8yAtpcVZKOL86jkoCrIMibEA6bMtnCetiVYfM-qWB85NxcrS-w","Content-Type":"application/json"}
+[07:28:48.968] Browser LOG     🔐 Interceptor: accommodation_token from localStorage: EXISTS
+[07:28:48.968] Browser LOG     🔐 Interceptor: Token value: eyJhbGciOiJFUzI1NiIs...
+[07:28:48.968] Browser LOG     ✅ Interceptor: Authorization header set
+[07:28:48.968] Browser LOG     📡 Interceptor: Final headers: {"Accept":"application/json, text/plain, */*","Authorization":"Bearer eyJhbGciOiJFUzI1NiIsImtpZCI6ImY1YzM0Y2U2LTlhYjgtNDM3OC1hODZiLWJmYzNmMGFlMTgwOSIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJodHRwczovL3Z1aHd1Z3hmcmxoZXVndHFrdmljLnN1cGFiYXNlLmNvL2F1dGgvdjEiLCJzdWIiOiJlMGU2ODFjMC1lYWIyLTQ0ZWUtYWE5Ny1iZDcxNmJiNmU0NjgiLCJhdWQiOiJhdXRoZW50aWNhdGVkIiwiZXhwIjoxNzY4NDY2NDg5LCJpYXQiOjE3Njc4NjE2ODksImVtYWlsIjoiYWxsb2R5YXFAZ21haWwuY29tIiwicGhvbmUiOiIiLCJhcHBfbWV0YWRhdGEiOnsicHJvdmlkZXIiOiJlbWFpbCIsInByb3ZpZGVycyI6WyJlbWFpbCJdfSwidXNlcl9tZXRhZGF0YSI6eyJlbWFpbCI6ImFsbG9keWFxQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJwaG9uZV92ZXJpZmllZCI6ZmFsc2UsInN1YiI6ImUwZTY4MWMwLWVhYjItNDRlZS1hYTk3LWJkNzE2YmI2ZTQ2OCJ9LCJyb2xlIjoiYXV0aGVudGljYXRlZCIsImFhbCI6ImFhbDEiLCJhbXIiOlt7Im1ldGhvZCI6InBhc3N3b3JkIiwidGltZXN0YW1wIjoxNzY3ODYxNjg5fV0sInNlc3Npb25faWQiOiIwMzQyYjMzNy0yMThhLTQ5YTUtOGYzYi0wNGU1MzJmODEzNjQiLCJpc19hbm9ueW1vdXMiOmZhbHNlfQ.mctn8Hf9IP1dPhjWrdlZQIOsbAnu9KtbY6sj8yAtpcVZKOL86jkoCrIMibEA6bMtnCetiVYfM-qWB85NxcrS-w","Content-Type":"application/json"}
+[07:28:49.850] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:28:51.495] Browser LOG     🌐 API: Raw response: [{"accommodation_id":"5","address":"Puri Indah No 19A","available_units":10,"city":"Depok","created_at":"2026-01-08T07:52:37.697Z","name":"Kos Allodya","price":"1850000","total_units":25}]
+[07:28:51.496] Browser LOG     ✅ Accommodations received: [{"accommodation_id":"5","address":"Puri Indah No 19A","available_units":10,"city":"Depok","created_at":"2026-01-08T07:52:37.697Z","name":"Kos Allodya","price":"1850000","total_units":25}]
+[07:28:51.496] Browser LOG     📊 Is array: true
+[07:28:51.496] Browser LOG     📏 Length: 1
+[07:29:20.843] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:29:51.785] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:30:22.855] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:30:53.776] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:31:24.767] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:31:55.796] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:32:27.345] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:32:58.037] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:33:28.658] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:33:59.963] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:34:31.096] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:35:01.738] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:35:31.854] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:36:01.782] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:36:31.773] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:37:02.728] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:37:33.832] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:38:04.923] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:38:35.753] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:39:06.632] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:39:37.838] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:40:08.643] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:40:40.053] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:41:10.637] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:41:42.040] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:42:12.881] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:42:43.884] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:43:14.774] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:43:45.961] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:44:16.831] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:44:47.765] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:45:18.786] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:45:49.954] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:46:20.843] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:46:51.799] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:47:22.782] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:47:54.010] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:48:24.768] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:48:55.839] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:49:26.757] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:49:57.634] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:50:28.761] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:50:59.647] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:51:30.882] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:52:01.839] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:52:32.789] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count
+[07:53:03.773] Browser ERROR   Living Support Error: 403 /api/notifications/unread-count

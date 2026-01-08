@@ -4,9 +4,9 @@ import { useState, useEffect } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { useAuth } from '../lib/AuthContext';
-import { laundryApi, cateringApi, bookingApi, accommodationAuthApi } from '../lib/api';
-import type { LaundryService, CateringOrder, Booking } from '../types';
-import { Shirt, UtensilsCrossed, Building2, Clock, CheckCircle, XCircle, Package, ExternalLink } from 'lucide-react';
+import { laundryApi, cateringApi } from '../lib/api';
+import type { LaundryService, CateringOrder } from '../types';
+import { Shirt, UtensilsCrossed, Clock, CheckCircle, XCircle, Package } from 'lucide-react';
 import { format } from 'date-fns';
 
 export default function DashboardPage() {
@@ -14,7 +14,6 @@ export default function DashboardPage() {
   const router = useRouter();
   const [laundryOrders, setLaundryOrders] = useState<LaundryService[]>([]);
   const [cateringOrders, setCateringOrders] = useState<CateringOrder[]>([]);
-  const [bookings, setBookings] = useState<Booking[]>([]);
   const [loading, setLoading] = useState(true);
   const [activeTab, setActiveTab] = useState<'laundry' | 'catering'>('laundry');
 
@@ -34,17 +33,6 @@ export default function DashboardPage() {
       ]);
       setLaundryOrders(Array.isArray(laundryData) ? laundryData : []);
       setCateringOrders(Array.isArray(cateringData) ? cateringData : []);
-
-      // Fetch bookings by user ID from accommodation service
-      try {
-        const accommodationUser = accommodationAuthApi.getUser();
-        if (accommodationUser?.id) {
-          const bookingData = await bookingApi.getById(accommodationUser.id);
-          setBookings(Array.isArray(bookingData) ? bookingData : bookingData ? [bookingData] : []);
-        }
-      } catch (error) {
-        console.log('Bookings not available (external service)');
-      }
     } catch (error) {
       console.error('Failed to fetch data:', error);
     } finally {
@@ -296,136 +284,6 @@ export default function DashboardPage() {
                 ))}
               </div>
             )
-          )}
-        </div>
-
-        {/* Secondary Section - Accommodation Bookings */}
-        <div className="bg-white rounded-2xl shadow-lg p-8">
-          <div className="flex items-center justify-between mb-6">
-            <div className="flex items-center gap-3">
-              <h2 className="text-xl font-bold text-gray-900">Accommodation Bookings</h2>
-              <span className="bg-gray-100 text-gray-600 px-3 py-1 rounded-full text-sm font-medium flex items-center gap-1">
-                <ExternalLink size={14} />
-                External Service
-              </span>
-            </div>
-            <Link
-              href="/accommodations"
-              className="text-gray-600 font-semibold hover:text-gray-800 transition-colors"
-            >
-              Browse Kos →
-            </Link>
-          </div>
-
-          {bookings.length === 0 ? (
-            <div className="text-center py-8 bg-gray-50 rounded-lg">
-              <Building2 className="mx-auto text-gray-400 mb-3" size={48} />
-              <p className="text-gray-600 mb-2">No accommodation bookings</p>
-              <p className="text-sm text-gray-500">
-                Browse and book kos through our partner service
-              </p>
-            </div>
-          ) : (
-            <div className="space-y-4">
-              {bookings.map((booking) => (
-                <div
-                  key={booking.booking_id}
-                  className={`border rounded-lg p-5 ${booking.status === 'PENDING'
-                    ? 'border-yellow-300 bg-yellow-50'
-                    : booking.status === 'SUCCESS'
-                      ? 'border-green-200 bg-green-50'
-                      : 'border-gray-200'
-                    }`}
-                >
-                  <div className="flex items-start justify-between mb-3">
-                    <div>
-                      <div className="flex items-center gap-3 mb-1">
-                        <h3 className="text-lg font-bold text-gray-900">
-                          Booking #{booking.booking_id}
-                        </h3>
-                        <span
-                          className={`px-3 py-1 rounded-full text-sm font-semibold flex items-center gap-1 ${getStatusColor(booking.status)}`}
-                        >
-                          {booking.status === 'SUCCESS' && <CheckCircle size={14} />}
-                          {booking.status === 'PENDING' && <Clock size={14} />}
-                          {booking.status === 'CANCELLED' && <XCircle size={14} />}
-                          {booking.status}
-                        </span>
-                      </div>
-                      <p className="text-sm text-gray-600">
-                        Accommodation ID: {booking.accommodation_id}
-                      </p>
-                    </div>
-                    <div className="text-right">
-                      <p className="text-lg font-bold text-primary-600">
-                        Rp {booking.final_price?.toLocaleString() || '0'}
-                      </p>
-                      {booking.discount_applied > 0 && (
-                        <p className="text-xs text-green-600">
-                          Saved Rp {booking.discount_applied.toLocaleString()}
-                        </p>
-                      )}
-                    </div>
-                  </div>
-
-                  <div className="flex items-center gap-4 text-sm text-gray-600 mb-3">
-                    <span>
-                      Check-in: {format(new Date(booking.start_date), 'MMM dd, yyyy')}
-                    </span>
-                    <span>→</span>
-                    <span>
-                      Check-out: {format(new Date(booking.end_date), 'MMM dd, yyyy')}
-                    </span>
-                  </div>
-
-                  {booking.status === 'PENDING' && (
-                    <div className="flex gap-3 pt-3 border-t border-yellow-200">
-                      <button
-                        onClick={async () => {
-                          try {
-                            await bookingApi.updateStatus(booking.booking_id, 'SUCCESS', booking.accommodation_id);
-                            fetchAllData();
-                          } catch (error) {
-                            console.error('Failed to pay booking:', error);
-                            alert('Failed to process payment');
-                          }
-                        }}
-                        className="flex-1 bg-green-600 text-white py-2 px-4 rounded-lg font-semibold hover:bg-green-700 transition-colors flex items-center justify-center gap-2"
-                      >
-                        <CheckCircle size={18} />
-                        Pay Now
-                      </button>
-                      <button
-                        onClick={async () => {
-                          if (confirm('Are you sure you want to cancel this booking?')) {
-                            try {
-                              await bookingApi.updateStatus(booking.booking_id, 'CANCELLED', booking.accommodation_id);
-                              fetchAllData();
-                            } catch (error) {
-                              console.error('Failed to cancel booking:', error);
-                              alert('Failed to cancel booking');
-                            }
-                          }
-                        }}
-                        className="px-4 py-2 border border-red-300 text-red-600 rounded-lg font-semibold hover:bg-red-50 transition-colors flex items-center gap-2"
-                      >
-                        <XCircle size={18} />
-                        Cancel
-                      </button>
-                    </div>
-                  )}
-
-                  {booking.status === 'SUCCESS' && (
-                    <div className="pt-3 border-t border-green-200">
-                      <p className="text-sm text-green-700 flex items-center gap-2">
-                        <CheckCircle size={16} />
-                        Payment completed - Your booking is confirmed!
-                      </p>
-                    </div>
-                  )}
-                </div>
-              ))}
-            </div>
           )}
         </div>
 

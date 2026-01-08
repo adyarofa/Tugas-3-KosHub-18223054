@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { useAuth } from '../lib/AuthContext';
-import { Home, Building2, ShoppingBag, User, LogOut, Bell } from 'lucide-react';
+import { Home, ShoppingBag, User, LogOut, Bell } from 'lucide-react';
 import { useState, useEffect } from 'react';
 import { notificationApi } from '../lib/api';
 
@@ -65,13 +65,6 @@ export default function Navbar() {
                 </Link>
               </>
             )}
-            <Link
-              href="/accommodations"
-              className="flex items-center gap-2 text-white/90 hover:text-white transition-colors font-medium"
-            >
-              <Building2 size={18} />
-              <span>Accommodations</span>
-            </Link>
           </div>
 
           {/* User Actions */}
